@@ -1,0 +1,27 @@
+# https://github.com/kilowhat/flarum-ext-mailing/blob/master/resources/locale/en.yml
+# Sun, 26 Jan 2020 00:59:38 +0800
+
+kilowhat-mailing:
+    admin:
+        permissions:
+            mail_individual: 個々のユーザーにメールを送信する
+            mail_all: すべてのユーザーまたはグループユーザーにメールを送信する
+
+    forum:
+        links:
+            mail_individual: このユーザーにメールを送信
+            mail_all: すべてのユーザーにメールを送信する
+        modal_mail:
+            title_text: メッセージを作成
+            recipients_label: 受信者
+            recipients_placeholder: 別の受信者を入力してください...
+            subject_label: 題名
+            default_subject: => kilowhat-mailing.ref.default_subject
+            message_label: テキスト
+            submit_button: 送る
+
+    email:
+        default_subject: => kilowhat-mailing.ref.default_subject
+
+    ref:
+        default_subject: フォーラムマネージャーからのメッセージ

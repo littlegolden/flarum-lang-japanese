@@ -1,0 +1,13 @@
+# https://github.com/ziymed/BackToWebsite/blob/master/locale/en.yml
+# Fri, 24 Jan 2020 16:16:40 +0800
+
+backtowebsite:
+  forum:
+    header:
+      back_button: [URL]に戻る
+
+  admin:
+    settings:
+      backto_label_label: ボタンのタイトル
+      backto_url_label: バックリンク
+      title: リンク設定に戻る

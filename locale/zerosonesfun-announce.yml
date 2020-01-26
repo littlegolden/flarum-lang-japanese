@@ -1,0 +1,12 @@
+# https://github.com/zerosonesfun/announce/blob/master/resources/locale/en.yml
+# Sun, 26 Jan 2020 02:13:25 +0800
+
+zerosonesfun-announce:
+  admin:
+    settings:
+      title: アナウンス設定
+
+      text: 発表内容
+      height: 発表高さ
+      css: CSS
+      js: JS

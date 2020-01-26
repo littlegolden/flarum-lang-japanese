@@ -1,0 +1,20 @@
+# https://github.com/clarkwinkelmann/flarum-ext-author-change/blob/master/resources/locale/en.yml
+# Fri, 24 Jan 2020 16:18:50 +0800
+
+clarkwinkelmann-author-change:
+    forum:
+        controls:
+            edit: 著者を編集
+        modal:
+            title-post: 投稿者を変更する
+            title-discussion: ディスカッション作成者を編集
+            search_placeholder: ユーザーを検索
+            submit: 保存する
+            cancel: キャンセルする
+        search:
+            placeholder: ユーザーを検索
+            type-more: 検索には少なくとも 3 文字が必要です
+            no-results: 見つかりません
+    admin:
+        permissions:
+            edit: ディスカッションと投稿者を更新する
