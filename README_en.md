@@ -64,6 +64,7 @@ php flarum cache:clear
   - flarum-auth-facebook（[Flarum Core](https://github.com/flarum/lang-english/tree/master/locale)）
   - flarum-auth-github（[Flarum Core](https://github.com/flarum/lang-english/tree/master/locale)）
   - flarum-auth-twitter（[Flarum Core](https://github.com/flarum/lang-english/tree/master/locale)）
+  - flarum-core（[Flarum Core](https://github.com/flarum/lang-english/tree/master/locale)）
   - flarum-discussion-views（[Flarum Core](https://github.com/flarum/lang-english/tree/master/locale)）
   - flarum-emoji（[Flarum Core](https://github.com/flarum/lang-english/tree/master/locale)）
   - flarum-ext-close（[Flarum Core](https://github.com/flarum/lang-english/tree/master/locale)）
