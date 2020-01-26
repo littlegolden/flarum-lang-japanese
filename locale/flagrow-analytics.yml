@@ -1,10 +1,11 @@
 # https://github.com/flagrow/analytics/blob/master/resources/locale/en.yml
+# d234eb1
 # Sat, 25 Jan 2020 18:22:15 +0800
 
 flagrow-analytics:
   admin:
     popup:
-      title: 統計
+      title: 統計設定
 
       section:
         googleAnalytics: Google Analytics
@@ -27,6 +28,7 @@ flagrow-analytics:
         piwikAuthToken: |
           この token を入力して、管理パネルの Piwik 統計タブを有効にします。
           設定 > 個人 > API 認証Token にあります。
+
       trackAccounts:
         none: 追跡しません
         username: ユーザー名で追跡

@@ -1,4 +1,5 @@
 # https://github.com/flarum/flarum-ext-english/blob/master/locale/flarum-likes.yml
+# 389fea3
 # Sat, 25 Jan 2020 20:55:07 +0800
 
 flarum-likes:
@@ -19,8 +20,8 @@ flarum-likes:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      post_liked_text: "{username} がいいね！しました"  # Can be pluralized to agree with the number of users!
       others_text: => core.ref.some_others
+      post_liked_text: "{username} がいいね！しました"  # Can be pluralized to agree with the number of users!
 
     # These translations are displayed beneath individual posts.
     post:

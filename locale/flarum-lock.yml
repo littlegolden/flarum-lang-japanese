@@ -1,4 +1,5 @@
 # https://github.com/flarum/flarum-ext-english/blob/master/locale/flarum-lock.yml
+# 8e0b3a4
 # Sat, 25 Jan 2020 21:00:30 +0800
 
 flarum-lock:
@@ -20,7 +21,6 @@ flarum-lock:
     # These translations are displayed as tooltips for discussion badges.
     badge:
       locked_tooltip: ロックされました
-
 
     # These translations are used by the discussion control buttons.
     discussion_controls:

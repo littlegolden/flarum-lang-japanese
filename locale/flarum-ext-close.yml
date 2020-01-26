@@ -1,4 +1,5 @@
 # https://github.com/HiQStd/flarum-ext-close/blob/master/resources/locale/en.yml
+# db3b7f0
 # Sat, 25 Jan 2020 20:38:22 +0800
 
 flarum-ext-close:
@@ -12,7 +13,7 @@ flarum-ext-close:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      close_discussions_label: 緊密な議論
+      close_discussions_label: 閉じる議論
 
   # Translations in this namespace are used by the forum user interface.
   forum:

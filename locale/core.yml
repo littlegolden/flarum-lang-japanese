@@ -1,5 +1,6 @@
 # https://github.com/flarum/lang-english/blob/master/locale/core.yml
-# Sat, 25 Jan 2020 17:19:10 +0800
+# 80328f1
+# Sun, 26 Jan 2020 18:37:06 +0800
 
 core:
 
@@ -100,6 +101,7 @@ core:
       mail_encryption_label: 暗号化方式(SSL/TLS)
       mail_host_label: ホスト
       mail_mailgun_domain_label: ドメイン名
+      mail_mailgun_region_label: 領域
       mail_mailgun_secret_label: Secret key
       mail_mandrill_secret_label: Secret key
       mail_password_label: => core.ref.password
@@ -121,11 +123,11 @@ core:
       settings_button: => core.ref.settings
       uninstall_button: アンインストール
 
-    # This string is used in the session dropdown menu.
+    # These translations are used in the session dropdown menu.
     header:
       log_out_button: => core.ref.log_out
 
-    # This string is used in the modal dialog displayed when loading extensions.
+    # These translations are used in the modal dialog displayed when loading extensions.
     loading:
       title: しばらくお待ちください...
 
@@ -194,8 +196,8 @@ core:
 
     # These translations are used in the Change Email modal dialog.
     change_email:
-      confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_placeholder: => core.ref.confirm_password
+      confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
       incorrect_password_message: 入力したパスワードが間違っています。
       submit_button: => core.ref.save_changes
@@ -383,8 +385,8 @@ core:
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
-      email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
       log_in_text: "すでにアカウントをお持ちですか？ <a>ログイン</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
@@ -428,10 +430,6 @@ core:
     badge:
       hidden_tooltip: 非表示
 
-    # These translations are used to modify usernames.
-    username:
-      deleted_text: "[削除済み]"
-
     # These translations are displayed as error messages.
     error:
       generic_message: "おっとっと！ エラーが発生しました。ページを再読み込みし、もう一度お試しください。"
@@ -450,6 +448,10 @@ core:
       glue_text: ", "
       three_text: "{first} や {second}、 {third}"
       two_text: "{first} や {second}"
+
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[削除済み]"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
@@ -511,11 +513,9 @@ core:
         {forum} への登録のリクエストが送信されました。
 
         こちらのURLにアクセスすると、作成したアカウントを有効化することができます:こちらのURLにアクセスすると、作成したアカウントを有効化することができます:
-
         {url}
 
         このメールに身に覚えがない場合は、お手数ですがメールを削除してください。
-
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
@@ -526,12 +526,9 @@ core:
         {forum} のアカウントで、メールアドレス変更のリクエストが送信されました。
 
         こちらのURLにアクセスするとアカウントのメールアドレスを変更することができます:
-
         {url}
 
         このメールに身に覚えがない場合は、お手数ですがメールを削除してください。
-
-
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
@@ -542,11 +539,9 @@ core:
         {forum} のアカウントで、パスワードリセットのリクエストを誰かが（おそらくあなたが）送信しました。
 
         このURLにアクセスするとアカウントのパスワードをリセットすることができます:
-
         {url}
 
         このメールに身に覚えがない場合は、お手数ですがメールを削除してください。
-
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -595,6 +590,10 @@ core:
     users: ユーザー
     write_a_reply: 返信する...
     you: あなた                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+
+  ##
+  # GROUP NAMES - These keys are translated at the back end.
+  ##
 
   # Translations in this namespace are used to translate default group names.
   group:

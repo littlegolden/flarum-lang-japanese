@@ -1,16 +1,17 @@
 # https://github.com/Fajuu/flarum-icons/blob/master/resources/locale/en.yml
+# 0b10e90
 # Sat, 25 Jan 2020 17:59:15 +0800
 
 fajuu-icons:
-
   # Translations in this namespace are used by the admin interface.
   admin:
-
     # These translations are used in the Edit Icon component.
     edit_icon:
       elementPath: 要素パス
       originalIcon: デフォルトのアイコン
       modifiedIcon: 変更されたアイコン
+      create: 作成する
+      delete: 削除
 
     # These translations are used in the navigation bar.
     nav:
@@ -22,6 +23,7 @@ fajuu-icons:
       key_heading: kit code
       key_text: |
         <a>kit code はどこにありますか？</a>無料版も登録が必要です。set を生成する必要があります。set codeには10桁の 10 あります。set key が既にある場合は、それを選択してコピーします。
+
     # These translations are used in the Icon Import modal dialog.
     icon_import:
       title: インポートアイコン

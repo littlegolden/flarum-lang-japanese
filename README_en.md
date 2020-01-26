@@ -1,7 +1,7 @@
 ## Flarum Japanese Language Pack (beta 8+)
 Based on original work (c) 2018 [setsunaMC](https://github.com/setsunaMC/flarum-ext-japanese) and (c) 2019 [rikusen0335](https://github.com/rikusen0335/lang-japanese-extended).
 
-> [説明を日本語で読む](https://github.com/littlegolden/flarum-lang-japanese/edit/master/README.md)
+> [説明を日本語で読む](https://github.com/Littlegolden/flarum-lang-japanese/edit/master/README.md)
 
 ### Requirement
   - Flarum v0.1.0-beta.8 or later
@@ -40,7 +40,8 @@ php flarum cache:clear
   - clarkwinkelmann-post-date
   - clarkwinkelmann-status
   - datitisev-dashboard
-  - dem13n
+  - dem13n-nickname-changer
+  - dem13n-quad-theme
   - extiverse-bazaar
   - fajuu-contactbutton
   - fajuu-icons
@@ -132,6 +133,7 @@ php flarum cache:clear
   - reflar-webhooks
   - saleksin-auth-google
   - shriker-pronouns
+  - simonxeko/follow-users
   - tpokorra-post-notification
   - v17development-flarum-seo
   - xmugenx-post-blacklist
@@ -141,12 +143,12 @@ php flarum cache:clear
   - https://bbs.csur.fun
 
 ### Report Issue
-  - [Github](https://github.com/littlegolden/flarum-lang-japanese/issues)
+  - [Github](https://github.com/Littlegolden/flarum-lang-japanese/issues)
   - [bbs.csur.fun](https://bbs.csur.fun/t/chatroom)
 
 ### Links
   - [Flarum](https://discuss.flarum.org/d/17954)
-  - [Github](https://github.com/littlegolden/flarum-lang-japanese)
+  - [Github](https://github.com/Littlegolden/flarum-lang-japanese)
   - [Packagist](https://packagist.org/packages/littlegolden/flarum-lang-japanese)
 
 ### Donate

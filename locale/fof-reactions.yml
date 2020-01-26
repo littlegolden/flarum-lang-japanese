@@ -1,8 +1,10 @@
 # https://github.com/FriendsOfFlarum/reactions/blob/master/resources/locale/en.yml
+# 0223f8b
 # Sun, 26 Jan 2020 00:18:51 +0800
 
 fof-reactions:
   forum:
+    disabled-reaction: 現在、この反応を使用できません。ページを更新してください
     warning: あなたの反応は変換されました
     notification: '{username} はあなたの投稿に対して {reaction} で反応しました'
     settings:
@@ -21,6 +23,7 @@ fof-reactions:
         reactions: 既存の対応
         Helptext: 絵文字の名前または font-awesome を入力し、好きな種類を選択します
         help:
+          display: 表示
           identifier: 識別
 
       convert:

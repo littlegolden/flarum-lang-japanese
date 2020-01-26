@@ -1,4 +1,5 @@
 # https://github.com/FriendsOfFlarum/byobu/blob/master/resources/locale/en.yml
+# eba21cb
 # Sat, 25 Jan 2020 22:38:30 +0800
 
 fof-byobu:
@@ -33,7 +34,9 @@ fof-byobu:
     user:
       settings:
         block_pd: プライベートトピックを無効にする
+
       byobu_link: プライベートトピック
+
     notifications:
       pd_label: 誰かが私をプライベートトピックに追加しました
       pd_text: "{username} がプライベートトピックを作成し、招待しました"
@@ -45,6 +48,7 @@ fof-byobu:
       create_private_discussions_with_blocking_users: プライベートトピックを無効にしているユーザーを許可する
       edit_user_recipients: プライベートディスカッションの参加者を編集する
       edit_group_recipients: プライベートディスカッション用のグループの編集
+      
     settings:
       byobu_users_page_label: ユーザーページにプライベートトピックを追加する
 

@@ -1,4 +1,5 @@
 # https://github.com/AmauryCarrade/flarum-ext-syndication/blob/master/resources/locale/en.yml
+# 322035b
 # Fri, 24 Jan 2020 15:43:10 +0800
 
 amaurycarrade-syndication:
@@ -26,7 +27,8 @@ amaurycarrade-syndication:
       title: "購読ソース設定"
       full-text:
         label: "全文出力"
-        help: "無効にすると、フィードには概要のみが含まれ、ユーザーはフォーラムにアクセスしてコンテンツ全体を見る必要があります。"
+        help: >-
+          "無効にすると、フィードには概要のみが含まれ、ユーザーはフォーラムにアクセスしてコンテンツ全体を見る必要があります。"
         recommendation: "このオプションは、RSSアグリゲーターを使用するユーザーを尊重するために推奨されます。"
       html:
         label: "コンテンツのフォーマット"

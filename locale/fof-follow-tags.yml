@@ -1,4 +1,5 @@
 # https://github.com/FriendsOfFlarum/follow-tags/blob/master/resources/locale/en.yml
+# b004903
 # Sat, 25 Jan 2020 22:49:09 +0800
 
 fof-follow-tags:
@@ -33,8 +34,8 @@ fof-follow-tags:
       new_post_text: "{username} が投稿しました"
 
   email:
-    newDiscussionInTag: "[タグ | 新しいディスカッション] タイトル"
-    newPostInTag: "[タグ | 新規投稿] タイトル"
+    newDiscussionInTag: "[Tag | New Discussion] タイトル"
+    newPostInTag: "[Tag | New Post] タイトル"
 
   ref:
     follow: フォローする

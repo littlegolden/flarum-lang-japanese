@@ -1,4 +1,5 @@
 # https://github.com/migratetoflarum/vbulletin-redirects/blob/master/locale/en.yml
+# 17444e4
 # Sun, 26 Jan 2020 01:05:44 +0800
 
 migratetoflarum-vbulletin-redirects:
@@ -9,6 +10,7 @@ migratetoflarum-vbulletin-redirects:
             disclaimer: >
                 これらの設定を慎重に変更してください。
                 これらの値は移行中に設定され、変更を必要としない場合があります！
+
             field:
                 discussionIncrement: トピック（ディスカッション文字列）ID の増分
                 userIncrement: ユーザー ID の増分

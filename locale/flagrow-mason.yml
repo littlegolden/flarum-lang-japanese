@@ -1,4 +1,5 @@
 # https://github.com/flagrow/mason/blob/master/resources/locale/en.yml
+# e36a885
 # Sat, 25 Jan 2020 20:17:18 +0800
 
 flagrow-mason:
@@ -6,7 +7,7 @@ flagrow-mason:
         discussion-controls:
             edit-answers: フィールドを編集
         answers-modal:
-            edit-title: {title} のフィールドを編集
+            edit-title: '{title} のフィールドを編集'
             save: フィールドを保存
         post-answers:
             no-answer: 無回答
@@ -99,5 +100,6 @@ flagrow-mason:
             see-own-fields: 自身のトピックに表示されるフィールド
             see-other-fields: すべてのトピックに表示されるフィールド
             fill-fields: 新しいトピックのフィールドに入力する
+            update-own-fields: 自分のディスカッションのフィールドを更新する
             update-other-fields: 件名フィールドを更新する
             skip-required-fields: 必須フィールドのスキップを許可する

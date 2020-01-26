@@ -1,4 +1,5 @@
 # https://github.com/FriendsOfFlarum/terms/blob/master/resources/locale/en.yml
+# 33d6443
 # Sun, 26 Jan 2020 00:38:03 +0800
 
 fof-terms:
@@ -28,6 +29,7 @@ fof-terms:
                 これにより、用語 {name} および関連する受け入れ日がデータベースから完全に削除されます。
                 法的な理由で必要な場合は、これらの日付を必ずバックアップしてください。
                 この句を削除してもよろしいですか？
+
         policies:
             name: お名前
             name-help: この名前はチェックボックスの横に表示され、更新ダイアログのタイトルとして使用されます。
@@ -45,6 +47,7 @@ fof-terms:
             export-url-help: >
                 「すべての規約データをエクスポートする」権限を持つユーザーは、以下のリンクにアクセスして、規約に同意するユーザーのリストをダウンロードできます。
                 このオプションの詳細については、<a>プラグインwiki</a> をご覧ください。
+
         permissions:
             see-user-policies-state: ユーザーの利用規約の表示
             postpone-policies-accept: 新しい利用規約の遅延受諾を許可する
