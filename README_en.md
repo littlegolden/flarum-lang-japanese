@@ -1,6 +1,8 @@
 ## Flarum Japanese Language Pack (beta 8+)
 Based on original work (c) 2018 [setsunaMC](https://github.com/setsunaMC/flarum-ext-japanese) and (c) 2019 [rikusen0335](https://github.com/rikusen0335/lang-japanese-extended).
 
+Co-translate with [Slicky](https://bbs.csur.fun/u/Slicky0611).
+
 > [説明を日本語で読む](https://github.com/Littlegolden/flarum-lang-japanese/edit/master/README.md)
 
 ### Requirement

@@ -11,7 +11,7 @@ bazaar:
             close: 閉じる
             report_issue: 問題を報告する
         nav:
-            title: バザ
+            title: マーケット
             description: プラグイン市場
         header:
             extensions: プラグインを閲覧する
@@ -111,7 +111,7 @@ bazaar:
                     lastmonth: 先月
                     older: 早い前
         search:
-            placeholder: プラグインを検索する
+            placeholder: 検索プラグイン
             filter_installed: インストール済み
             filter_update: 更新する
             filter_favorited: お気に入り
