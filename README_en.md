@@ -1,33 +1,23 @@
 ## Flarum Japanese Language Pack (beta 8+)
 Based on original work (c) 2018 [setsunaMC](https://github.com/setsunaMC/flarum-ext-japanese) and (c) 2019 [rikusen0335](https://github.com/rikusen0335/lang-japanese-extended).
 
-> [Read the description in English](https://github.com/Littlegolden/flarum-lang-japanese/blob/master/README.md)
+> [説明を日本語で読む](https://github.com/Littlegolden/flarum-lang-japanese/edit/master/README.md)
 
-### 需要条件
+### Requirement
   - Flarum v0.1.0-beta.8 or later
 
 
-### インストールする
+### Installation
 ```
 composer require Littlegolden/flarum-lang-japanese
 ```
 
-### 更新する
-```
-composer update Littlegolden/flarum-lang-japanese
-```
-
-### アンインストール
+### Remove
 ```
 composer remove Littlegolden/flarum-lang-japanese
 ```
 
-### あ、あとアップデートしたらこのコマンドも打つのを忘れないでね！
-```
-php flarum cache:clear
-```
-
-### サポートされている拡張機能
+### Supported Extensions
   - amaurycarrade-syndication
   - antoinefr-money
   - antoinefr-online
@@ -137,19 +127,19 @@ php flarum cache:clear
   - xmugenx-post-blacklist
   - zerosonesfun-announce
 
-### デモ
+### Demo
   - https://bbs.csur.fun
 
-### 問題を報告する
+### Report Issue
   - [Github](https://github.com/Littlegolden/flarum-lang-japanese/issues)
   - [bbs.csur.fun](https://bbs.csur.fun/t/chatroom)
 
-### リンク
+### Links
   - [Flarum](https://discuss.flarum.org/d/17954)
   - [Github](https://github.com/Littlegolden/flarum-lang-japanese)
   - [Packagist](https://packagist.org/packages/Littlegolden/flarum-lang-japanese)
 
-### 寄付
+### Donate
 Buy me a cup of coffee \^_\^
 
 [Donate](https://pay.csur.fun)
