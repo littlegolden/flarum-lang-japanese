@@ -28,6 +28,10 @@ php flarum cache:clear
 ```
 
 ### サポートされている拡張機能
+
+<details>
+<summary>見に展開</summary>
+
   - amaurycarrade-syndication（[Syndication extension](https://discuss.flarum.org/d/4395-syndication-extension-rss-atom-feeds)）
   - antoinefr-money（[Money extension](https://discuss.flarum.org/d/4699-money-extension)）
   - antoinefr-online（[Online users extension](https://discuss.flarum.org/d/8302-online-users-extension)）
@@ -50,7 +54,7 @@ php flarum cache:clear
   - flagrow-fonts（[Flagrow Fonts](https://discuss.flarum.org/d/6207-flagrow-fonts-easily-add-fonts-to-your-forum)）
   - flagrow-html-errors（[Custom HTML Error Pages](https://discuss.flarum.org/d/10784-custom-html-error-pages)）
   - flagrow-impersonate（[Flagrow Impersonate](https://discuss.flarum.org/d/9868-flagrow-impersonate-login-as-other-users)）
-  - ~~flagrow-mason（[Flagrow Mason](https://discuss.flarum.org/d/7028-flagrow-mason-the-discussion-custom-fields-builder)）~~
+  - ~~flagrow-mason（[Flagrow Mason](https://discuss.flarum.org/d/7028-flagrow-mason-the-discussion-custom-fields-builder)）~~ 最新バージョンと互換性がない
   - flagrow-passport（[Flagrow passport](https://discuss.flarum.org/d/5203-flagrow-passport-the-laravel-passport-oauth-extension)）
   - flagrow-upload（[Flagrow upload](https://discuss.flarum.org/d/4154-flagrow-upload-the-intelligent-file-attachment-extension)）
   - flarum-akismet（[Flarum Core](https://github.com/flarum/lang-english/tree/master/locale)）
@@ -117,14 +121,14 @@ php flarum cache:clear
   - fof-userbio（[User Bio](https://discuss.flarum.org/d/17775-friendsofflarum-user-bio)）
   - fof-username-request（[Username Request](https://discuss.flarum.org/d/20956-friendsofflarum-username-request)）
   - imgur-upload（[Imgur Upload](https://discuss.flarum.org/d/18491-imgur-upload-simple-image-upload-from-the-editor)）
-  - kilowhat-affiliation-links（[https://discuss.flarum.org/d/21833-multi-purpose-affiliation-links-generator](Multi-Purpose Affiliation Links Generator)）
+  - kilowhat-affiliation-links（[Multi-Purpose Affiliation Links Generator](https://discuss.flarum.org/d/21833-multi-purpose-affiliation-links-generator)）
   - kilowhat-mailing（[Mailing](https://discuss.flarum.org/d/20443-mailing-by-kilowhat)）
   - kvothe-sub（[Sign Up Button](https://discuss.flarum.org/d/18812-sign-up-button)）
   - maicol07-sso（[Single Sign On (SSO)](https://discuss.flarum.org/d/21666-single-sign-on-sso-with-wordpress-integration)）
   - migratetoflarum-canonical（[Canonical url redirect](https://discuss.flarum.org/d/19307-canonical-url-redirect)）
   - michaelBelgium-profile-views（[Profile views](https://discuss.flarum.org/d/7596-profile-views)）
   - migratetoflarum-fake-data（[Fake Data](https://discuss.flarum.org/d/21160-fake-data)）
-  - ~~migratetoflarum-vbulletin-redirects（[Redirects](https://github.com/migratetoflarum/vbulletin-redirects)）~~
+  - ~~migratetoflarum-vbulletin-redirects（[Redirects](https://github.com/migratetoflarum/vbulletin-redirects)）~~ 最新バージョンと互換性がない
   - mybbtoflarum（[MyBB to flarum](https://discuss.flarum.org/d/5506-mybb-to-flarum)）
   - nikovonlas-webpush（[OneSignal web push notifications](https://discuss.flarum.org/d/20784-onesignal-web-push-notifications)）
   - perspective（[Perspective API](https://discuss.flarum.org/d/21784-perspective-api)）
@@ -141,6 +145,8 @@ php flarum cache:clear
   - v17development-flarum-seo（[Flarum SEO](https://discuss.flarum.org/d/18316-flarum-seo)）
   - xmugenx-post-blacklist（[Post Blacklist](https://discuss.flarum.org/d/21750-post-blacklist)）
   - zerosonesfun-announce（[Announce](https://discuss.flarum.org/d/21651-announce)）
+
+</details>
 
 ### デモ
   - https://bbs.csur.fun
