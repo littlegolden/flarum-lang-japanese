@@ -5,19 +5,19 @@
 clarkwinkelmann-status:
     admin:
         settings:
-            title: ステータス設定
-            only-countries: フラグのみ
-            enable-text: テキストステータスを許可する
+            title: 状態設定
+            only-countries: 国旗のみ
+            enable-text: テキストの状態を許可する
         permissions:
-            see: ステータスを表示
-            set: ステータスを設定
-            mod: ユーザーステータスの監視
+            see: 状態を表示
+            set: 設定状態
+            mod: ユーザーの状態を管理する
 
     forum:
         menu:
-            set-status: ステータスを設定
+            set-status: 設定状態
         modal:
-            title: ステータスを設定
-            text-placeholder: どうしたの？
-            submit: 提出する
-            clear: クリア
+            title: 設定状態
+            text-placeholder: 何が起きましたか？
+            submit: 送信
+            clear: 削除

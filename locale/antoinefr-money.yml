@@ -18,5 +18,5 @@ antoinefr-money:
       money_button: 資産を修正する
     modal:
       title: "{username} の資産"
-      current: 現在:
+      current: 現在：
       submit_button: => core.ref.save_changes

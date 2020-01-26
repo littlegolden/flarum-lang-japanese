@@ -5,12 +5,12 @@
 clarkwinkelmann-post-date:
     forum:
         post_controls:
-            edit_button: 時間を編集
+            edit_button: 編集時間
         modal:
-            title: 投稿時間を編集
+            title: 投稿時間の編集
             created_at: リリース時間
-            edited_at: 時間を編集
-            submit: 保存する
+            edited_at: 編集時間
+            submit: 保存
     admin:
         permissions:
-            edit-post-date: 投稿時間を編集
+            edit-post-date: 投稿時間の編集

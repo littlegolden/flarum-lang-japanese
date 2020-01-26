@@ -21,16 +21,16 @@ amaurycarrade-syndication:
         tag_d_title: "{tag} タグの新しい議論"
         tag_d_subtitle: "{tag} タグの新しい議論"
         discussion_title: "{discussion_name}"
-        discussion_subtitle: "この議論への最新の返信"
+        discussion_subtitle: "このpostの最新の返信"
   admin:
     settings:
       title: "購読ソース設定"
       full-text:
         label: "全文出力"
         help: >-
-          "無効にすると、フィードには概要のみが含まれ、ユーザーはフォーラムにアクセスしてコンテンツ全体を見る必要があります。"
+          "無効にすると、フォローソースには要約だけが含まれます。ユーザはフォーラムにアクセスしてすべての内容を確認する必要があります。"
         recommendation: "このオプションは、RSSアグリゲーターを使用するユーザーを尊重するために推奨されます。"
       html:
         label: "コンテンツのフォーマット"
         help: "HTMLコンテンツを保持するには、このオプションをオンにします。 無効にすると、フィードはプレーンテキストで表示されます。"
-      entries-count: "フィードエントリの数は？"
+      entries-count: "フォロワーソースのエントリ数はいくらですか？"

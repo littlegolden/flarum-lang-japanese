@@ -5,17 +5,18 @@
 clarkwinkelmann-author-change:
     forum:
         controls:
-            edit: 著者を編集
+            edit: 作者を変更
         modal:
-            title-post: 投稿者を変更する
-            title-discussion: ディスカッション作成者を編集
-            search_placeholder: ユーザーを検索
-            submit: 保存する
+            title-post: 返信作者を変更
+            title-discussion: discussion作者を変更
+            search_placeholder: 検索ユーザ
+            submit: 保存
             cancel: キャンセルする
         search:
-            placeholder: ユーザーを検索
+            placeholder: 検索ユーザ
             type-more: 検索には少なくとも 3 文字が必要です
+            検索には少なくとも3文字が必要です
             no-results: 見つかりません
     admin:
         permissions:
-            edit: ディスカッションと投稿者を更新する
+            edit: postとレス作者を更新します。
