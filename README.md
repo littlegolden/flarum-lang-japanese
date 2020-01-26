@@ -1,6 +1,8 @@
 ## Flarum Japanese Language Pack (beta 8+)
 Based on original work (c) 2018 [setsunaMC](https://github.com/setsunaMC/flarum-ext-japanese) and (c) 2019 [rikusen0335](https://github.com/rikusen0335/lang-japanese-extended).
 
+> [説明を日本語で読む]()
+
 ### Requirement
   - Flarum v0.1.0-beta.8 or later
 
@@ -129,15 +131,15 @@ composer remove Littlegolden/flarum-lang-japanese
   - https://bbs.csur.fun
 
 ### Report Issue
-  - Japanese: [Github](https://github.com/Littlegolden/flarum-lang-japanese/issues)
-  - Forum: [csur.fun](https://bbs.csur.fun/t/chatroom)
+  - [Github](https://github.com/Littlegolden/flarum-lang-japanese/issues)
+  - [bbs.csur.fun](https://bbs.csur.fun/t/chatroom)
 
 ### Links
-  - Flarum: [Flarum](https://discuss.flarum.org/d/17954)
-  - Github: [Japanese](https://github.com/Littlegolden/flarum-lang-japanese)
-  - Packagist: [Japanese](https://packagist.org/packages/Littlegolden/flarum-lang-japanese)
+  - [Flarum](https://discuss.flarum.org/d/17954)
+  - [Github](https://github.com/Littlegolden/flarum-lang-japanese)
+  - [Packagist](https://packagist.org/packages/Littlegolden/flarum-lang-japanese)
 
 ### Donate
 Buy me a cup of coffee \^_\^
 
-![](https://pay.csur.fun)
+[Donate](https://pay.csur.fun)
