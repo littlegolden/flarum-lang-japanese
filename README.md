@@ -28,7 +28,7 @@ composer remove littlegolden/flarum-lang-japanese
 ```
 php flarum cache:clear
 ```
-### Localization
+### ローカリゼーション
   - 時間形式を調整する
 
 ### サポートされている拡張機能
