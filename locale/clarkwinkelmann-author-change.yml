@@ -15,7 +15,6 @@ clarkwinkelmann-author-change:
         search:
             placeholder: 検索ユーザ
             type-more: 検索には少なくとも 3 文字が必要です
-            検索には少なくとも3文字が必要です
             no-results: 見つかりません
     admin:
         permissions:
