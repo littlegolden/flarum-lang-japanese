@@ -28,6 +28,8 @@ composer remove littlegolden/flarum-lang-japanese
 ```
 php flarum cache:clear
 ```
+### Localization
+  - 時間形式を調整する
 
 ### サポートされている拡張機能
 
@@ -166,4 +168,4 @@ php flarum cache:clear
 ### 寄付
 Buy me a cup of coffee \^_\^
 
-[Donate](https://pay.csur.fun)
+  - [Donate](https://pay.csur.fun)
