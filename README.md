@@ -164,6 +164,7 @@ php flarum cache:clear
   - [Flarum](https://discuss.flarum.org/d/22631)
   - [Github](https://github.com/littlegolden/flarum-lang-japanese)
   - [Packagist](https://packagist.org/packages/littlegolden/flarum-lang-japanese)
+  - [Flagrow](https://flagrow.io/extensions/littlegolden/flarum-lang-japanese)
 
 ### 寄付
 Buy me a cup of coffee \^_\^
