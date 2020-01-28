@@ -38,6 +38,9 @@
     "flarum-locale": {
       "code": "ja",
       "title": "日本語"
-    }
+    },
+    "flagrow": {
+			"discuss": "https://discuss.flarum.org/d/22631-japanese-language-pack"
+		}
   }
 }
