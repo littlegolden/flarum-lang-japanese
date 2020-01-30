@@ -86,6 +86,7 @@ php flarum cache:clear
   - flarum-tags（[Flarum Core](https://github.com/flarum/lang-english/tree/master/locale)）
   - fof-amazon-affiliation（[Amazon Affiliation](https://discuss.flarum.org/d/12389)）
   - fof-auth-gitlab（[GitLab Login](https://discuss.flarum.org/d/20371)）
+  - fof-auth-discord（[Discord Login](https://discuss.flarum.org/d/20184)）
   - fof-ban-ips（[Ban IPs](https://discuss.flarum.org/d/20949)）
   - fof-best-answer（[Best Answer](https://discuss.flarum.org/d/21894)）
   - fof-byobu（[Byōbu](https://discuss.flarum.org/d/4762)）
@@ -137,6 +138,7 @@ php flarum cache:clear
   - ~~migratetoflarum-vbulletin-redirects（[Redirects](https://github.com/migratetoflarum/vbulletin-redirects)）~~ Not compatible with the latest version.
   - mybbtoflarum（[MyBB to flarum](https://discuss.flarum.org/d/5506)）
   - nikovonlas-webpush（[OneSignal web push notifications](https://discuss.flarum.org/d/20784)）
+  - nomiscz-auth-steam（[Steam Auth](https://discuss.flarum.org/d/19750)）
   - perspective（[Perspective API](https://discuss.flarum.org/d/21784)）
   - pushedx-chat（[Realtime chat with Pusher (Alpha)](https://discuss.flarum.org/d/5133-wip-extension-realtime-chat-with-pusher/12)）
   - reflar-cookie-consent（[Cookie Consent](https://discuss.flarum.org/d/10395)）
@@ -147,6 +149,7 @@ php flarum cache:clear
   - saleksin-auth-google（[Google Login](https://discuss.flarum.org/d/18250)）
   - shriker-pronouns（[Personal Pronouns](https://discuss.flarum.org/d/21188)）
   - simonxeko/follow-users（[Follow Users (WIP)](https://discuss.flarum.org/d/22628)）
+  - the-turk-password-strength（[Password Strength Indicator](https://discuss.flarum.org/d/22624)）
   - tpokorra-post-notification（[Post Notifications per E-Mail](https://discuss.flarum.org/d/20750)）
   - v17development-flarum-seo（[Flarum SEO](https://discuss.flarum.org/d/18316)）
   - xmugenx-post-blacklist（[Post Blacklist](https://discuss.flarum.org/d/21750)）
