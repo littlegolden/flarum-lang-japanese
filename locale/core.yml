@@ -76,7 +76,7 @@ core:
     edit_group:
       color_label: => core.ref.color
       delete_button: グループを削除
-      delete_confirmation: "本当にこのグループを削除してもよろしいですか？<strong>グループに登録されているユーザーは削除されません。</ strong>。"
+      delete_confirmation: "本当にこのグループを削除してもよろしいですか？<strong>グループに登録されているユーザーは削除されません。</strong>。"
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
       name_label: 名前
@@ -317,7 +317,7 @@ core:
       invalid_login_message: 入力された情報が正しくありません。
       password_placeholder: => core.ref.password
       remember_me_label: ログインしたままにする
-      sign_up_text: "アカウント登録がまだですか？ <a>サインアップ</a>してください。</a>"
+      sign_up_text: "まだアカウントがありませんか?<a>新規登録</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: ユーザー名またはメールアドレス
