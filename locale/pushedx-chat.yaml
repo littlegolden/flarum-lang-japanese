@@ -1,3 +1,7 @@
+# https://github.com/Xelson/flarum-ext-chat/blob/master/resources/locale/en.yaml
+# f5e0899 4 days ago
+# 2020-2-3 21:29:49 +0800
+
 pushedx-chat:
   forum:
     toolbar:
@@ -12,7 +16,16 @@ pushedx-chat:
       placeholder: 言いたいことを入力してください...
     errors:
       unauthenticated: ログイン後にのみチャットできます
+      chatdenied: ユーザーグループにはチャットに参加する権限がありません
+      
   admin:
+    permissions:
+      post: 送信
+      edit: 編集
+      delete: 削除
+      moderate:
+        delete: メッセージを削除
+
     settings:
       title: チャット設定
       charlimit: 各メッセージの最大語長制限
