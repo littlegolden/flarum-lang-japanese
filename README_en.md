@@ -77,7 +77,7 @@ php flarum cache:clear
   - flarum-lock（[Flarum Core](https://github.com/flarum/lang-english/tree/master/locale)）
   - flarum-markdown（[Flarum Core](https://github.com/flarum/lang-english/tree/master/locale)）
   - flarum-mentions（[Flarum Core](https://github.com/flarum/lang-english/tree/master/locale)）
-  - flarum-notify（[Flarum Core](https://github.com/flarum/lang-english/tree/master/locale)）
+  - ~~flarum-notify（[Notify](https://discuss.flarum.org/d/4345)）~~ Incompatible
   - flarum-pusher（[Flarum Core](https://github.com/flarum/lang-english/tree/master/locale)）
   - flarum-statistics（[Flarum Core](https://github.com/flarum/lang-english/tree/master/locale)）
   - flarum-sticky（[Flarum Core](https://github.com/flarum/lang-english/tree/master/locale)）
@@ -135,7 +135,7 @@ php flarum cache:clear
   - migratetoflarum-canonical（[Canonical url redirect](https://discuss.flarum.org/d/19307)）
   - michaelBelgium-profile-views（[Profile views](https://discuss.flarum.org/d/7596)）
   - migratetoflarum-fake-data（[Fake Data](https://discuss.flarum.org/d/21160)）
-  - ~~migratetoflarum-vbulletin-redirects（[Redirects](https://github.com/migratetoflarum/vbulletin-redirects)）~~ Not compatible with the latest version.
+  - migratetoflarum-vbulletin-redirects（[vbulletin Redirects](https://github.com/migratetoflarum/vbulletin-redirects)）
   - mybbtoflarum（[MyBB to flarum](https://discuss.flarum.org/d/5506)）
   - nikovonlas-webpush（[OneSignal web push notifications](https://discuss.flarum.org/d/20784)）
   - nomiscz-auth-steam（[Steam Auth](https://discuss.flarum.org/d/19750)）
