@@ -1,6 +1,6 @@
 # https://github.com/FriendsOfFlarum/best-answer/blob/master/resources/locale/en.yml
-# d90b6d8 17 hours ago
-# 2020-2-6 00:14:21 +0800
+# e1c918c 7 hours ago
+# 2020-2-6 14:21:53 +0800
 
 fof-best-answer:
     admin:
@@ -20,3 +20,8 @@ fof-best-answer:
 
         notification:
           content: あなたの質問に回答がついている場合、ベストアンサーを選んで下さい
+          awarded: あなたの投稿は {username} によってベストアンサーとして設定されました
+          awarded-email: 投稿がベストアンサーとして設定されました
+          select-email-title: 問題をソートできましたか？
+          preferences:
+            awarded-best-answer: 誰かが私の投稿をベストアンサーとして設定したとき
