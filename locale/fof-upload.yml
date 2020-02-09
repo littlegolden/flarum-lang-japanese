@@ -58,12 +58,12 @@ fof-upload:
         mime_types: MIME タイプに対応するアップロード方法を設定します
       resize:
         title: 画像のサイズを変更する
-        toggle: 画像調整の切り替え
+        toggle: 開く
         max_width: 最大画像幅
         max_height: 最大画像高さ
       watermark:
         title: 透かし画像
-        toggle: 透かし画像
+        toggle: 開く
         position: 透かしの位置
         file: 透かし画像をアップロードする
     permissions:
