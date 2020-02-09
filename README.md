@@ -1,40 +1,39 @@
-## Flarum 日本語言語パック (beta 8+)
+## Flarum Japanese Language Pack / 日本語言語パック (beta 8+)
+
 Based on original work (c) 2018 [setsunaMC](https://github.com/setsunaMC/flarum-ext-japanese) and (c) 2019 [rikusen0335](https://github.com/rikusen0335/lang-japanese-extended).
 
-[Slicky](https://bbs.csur.fun/u/Slicky0611)と協力して翻訳します。
+Co-translate with [Slicky](https://bbs.csur.fun/u/Slicky0611).
 
-> [Read the description in English](https://github.com/Littlegolden/flarum-lang-japanese/blob/master/README_en.md)
-
-### 需要条件
+### 需要条件 / Requirement
   - Flarum v0.1.0-beta.8 or later
 
 
-### インストールする
+### インストールする / Installation
 ```
 composer require littlegolden/flarum-lang-japanese
 ```
 
-### 更新する
+### 更新する / Update
 ```
 composer update littlegolden/flarum-lang-japanese
 ```
 
-### アンインストール
+### アンインストール / Remove
 ```
 composer remove littlegolden/flarum-lang-japanese
 ```
 
-### あ、あとアップデートしたらこのコマンドも打つのを忘れないでね！
+### あ、あとアップデートしたらこのコマンドも打つのを忘れないでね！ / Clear Cache
 ```
 php flarum cache:clear
 ```
-### ローカリゼーション
+### ローカリゼーション / Localization
   - 時間形式を調整する
 
-### サポートされている拡張機能
+### サポートされている拡張機能 / Supported Extensions
 
 <details>
-<summary>見に展開</summary>
+<summary>見に展開 / Expand to view</summary>
 
   - amaurycarrade-syndication（[Syndication extension](https://discuss.flarum.org/d/4395)）
   - antoinefr-money（[Money extension](https://discuss.flarum.org/d/4699)）
@@ -148,7 +147,10 @@ php flarum cache:clear
   - saleksin-auth-google（[Google Login](https://discuss.flarum.org/d/18250)）
   - shriker-pronouns（[Personal Pronouns](https://discuss.flarum.org/d/21188)）
   - simonxeko/follow-users（[Follow Users (WIP)](https://discuss.flarum.org/d/22628)）
+  - simonxeko-preview-discussion（[Preview Discussion Post (WIP)](https://discuss.flarum.org/d/22636)）
   - the-turk-password-strength（[Password Strength Indicator](https://discuss.flarum.org/d/22624)）
+  - therealsujitk（[Show Password](https://discuss.flarum.org/d/22727)）
+  - tituspijean-auth-ldap（[LDAP Login](https://discuss.flarum.org/d/9515)）
   - tpokorra-post-notification（[Post Notifications per E-Mail](https://discuss.flarum.org/d/20750)）
   - v17development-flarum-seo（[Flarum SEO](https://discuss.flarum.org/d/18316)）
   - xmugenx-post-blacklist（[Post Blacklist](https://discuss.flarum.org/d/21750)）
@@ -156,20 +158,20 @@ php flarum cache:clear
   
 </details>
 
-### デモ
+### デモ / Demo
   - https://bbs.csur.fun
 
-### 問題を報告する
+### 問題を報告する / Report Issue
   - [Github](https://github.com/Littlegolden/flarum-lang-japanese/issues)
   - [bbs.csur.fun](https://bbs.csur.fun/t/chatroom)
 
-### リンク
+### リンク / Links
   - [Flarum](https://discuss.flarum.org/d/22631)
   - [Github](https://github.com/littlegolden/flarum-lang-japanese)
   - [Packagist](https://packagist.org/packages/littlegolden/flarum-lang-japanese)
   - [Flagrow](https://flagrow.io/extensions/littlegolden/flarum-lang-japanese)
 
-### 寄付
+### 寄付 / Donate
 Buy me a cup of coffee \^_\^
 
   - [Donate](https://pay.csur.fun)

@@ -1,6 +1,6 @@
 # https://github.com/Xelson/flarum-ext-chat/blob/master/resources/locale/en.yaml
-# f5e0899 4 days ago
-# 2020-2-3 21:29:49 +0800
+# d580c37 10 hours ago
+# 2020-2-9 13:57:58 +0800
 
 pushedx-chat:
   forum:
@@ -14,6 +14,10 @@ pushedx-chat:
       maximize: 最大化
     chat:
       placeholder: 言いたいことを入力してください...
+      message:
+        actions:
+          hide: 隠す
+          resend: 再送する
     errors:
       unauthenticated: ログイン後にのみチャットできます
       chatdenied: ユーザーグループにはチャットに参加する権限がありません
@@ -29,3 +33,7 @@ pushedx-chat:
     settings:
       title: チャット設定
       charlimit: 各メッセージの最大語長制限
+      floodgate:
+        title: 洪水防止
+        number: 連続メッセージの数
+        time: 待ち時間
