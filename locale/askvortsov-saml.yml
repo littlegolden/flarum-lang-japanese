@@ -1,0 +1,14 @@
+# https://github.com/askvortsov1/flarum-saml/blob/master/resources/locale/en.yml
+# f545040 15 hours ago
+# 2020-2-11 19:19:37 +0800
+
+askvortsov-saml:
+  admin:
+    title: SAML2 SSO 設定
+    labels:
+      idp_metadata: アイデンティティプロバイダーメタデータ XML
+      only_option: ログインオプションとしてのみ SAML2 SSO を使用しますか？
+      sync_attributes: 同期属性（アバター、グループ、バイオ、およびプロファイル）？<a href="http://t.cn/A6hwoQnb"> askvortsov/auth-sync </a>拡張が必要です。
+  forum:
+    log_in:
+      with_saml_button: "SAML2 SSO"
