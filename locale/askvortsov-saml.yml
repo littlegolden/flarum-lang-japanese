@@ -8,7 +8,7 @@ askvortsov-saml:
     labels:
       idp_metadata: アイデンティティプロバイダーメタデータ XML
       only_option: ログインオプションとしてのみ SAML2 SSO を使用しますか？
-      sync_attributes: 同期属性（アバター、グループ、バイオ、およびプロファイル）？<a href="http://t.cn/A6hwoQnb"> askvortsov/auth-sync </a>拡張が必要です。
+      sync_attributes: 同期属性（アバター、グループ、バイオ、およびプロファイル）？ askvortsov/auth-sync 拡張が必要です（http://t.cn/A6hwoQnb）。
   forum:
     log_in:
       with_saml_button: "SAML2 SSO"
