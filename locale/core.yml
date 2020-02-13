@@ -176,7 +176,7 @@ core:
       allow_indefinitely_button: 無制限
       allow_some_minutes_button: "{count} 分|{count} 分"
       allow_ten_minutes_button: 10 分以内
-      allow_until_reply_button: 返信まで
+      allow_until_reply_button: 返信されるまで
       everyone_button: みなさん
       members_button: => core.group.members
       signup_closed_button: 关闭注册
