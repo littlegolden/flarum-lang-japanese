@@ -1,13 +1,13 @@
 # https://github.com/NomisCZ/flarum-ext-auth-wechat/blob/master/resources/locale/en.yml
 # ce5631f 20 hours ago
-# 2020-2-13 16:11:55 +0800
+# 2020-2-14 00:08:29 +0800
 
 nomiscz-auth-wechat:
   forum:
     buttons:
-      login: WeChat でログイン
+      login: WeChat でログインする
   admin:
     settings:
-      title: WeChat ログイン設定
+      title: WeChat 認証 - 設定
       api_app_id: API App ID
       api_app_secret: API App Secret

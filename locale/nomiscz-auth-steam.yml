@@ -1,10 +1,10 @@
 # https://github.com/NomisCZ/flarum-ext-auth-steam/blob/master/resources/locale/en.yml
 # d0bf629
-# # Fri, 31 Jan 2020 00:24:55 +0800
+# 2020-2-14 00:08:25 +0800
 nomiscz-auth-steam:
   forum:
     buttons:
-      login: Steam でログイン
+      login: Steam でログインする
       link: Steam アカウントのリンク
       unlink: Steam アカウントのリンク 解除
     alerts:
@@ -26,6 +26,6 @@ nomiscz-auth-steam:
           cancel: いいえ！
   admin:
     settings:
-      title: Steam 登録設定
+      title: Steam 認証 - 設定
       api_key_label: steam API Key
       use_steam_powered_domain: steamcommunity.com の代わりに steampowered.com ドメインを使用（中国でブロック）

@@ -349,7 +349,7 @@ core:
       now_link: 最新の投稿
       original_post_link: 最初の投稿
       unread_text: "{count} 件の未読"
-      viewing_text: "{index} / {count}|{index} / {count}"
+      viewing_text: "{index} / {count} 件|{index} / {count} 件"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -401,7 +401,7 @@ core:
       avatar_upload_tooltip: アバターをアップロード
       discussions_link: => core.ref.discussions
       in_discussion_text: "{discussion} にて"
-      joined_date_text: "{ago} に参加"
+      joined_date_text: "{ago} に参加しました"
       online_text: オンライン
       posts_empty_text: まだ投稿されていません。
       posts_link: => core.ref.posts
