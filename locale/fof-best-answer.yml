@@ -1,6 +1,6 @@
 # https://github.com/FriendsOfFlarum/best-answer/blob/master/resources/locale/en.yml
-# e1c918c 7 hours ago
-# 2020-2-6 14:21:53 +0800
+# 61dfcb0 5 days ago
+# 2020-2-13 16:08:37 +0800
 
 fof-best-answer:
     admin:
@@ -11,6 +11,11 @@ fof-best-answer:
             title: FoF 最佳答案设置
             allow_select_own_post: ユーザーが自身の投稿をベストアンサーにすることを許可する
             select_best_answer_reminder_days: n 日後に最適な応答を選択するようユーザーに通知します
+            schedule_on_one_server: タスクプランの展開に「onOneServer()」メソッドを使用する（PHP 拡張機能が必要：Redis / Memcache）
+            schedule_stop_overnight: 夜は邪魔しないでください（サーバー時間は午後 9 時から午前 8 時、リマインダーサービスは無効）
+            schedule_log_output: スケジュールされたタスクの実行をログに記録します
+            remind_tag_ids:  特定のラベルにのみリマインダーを使用するには、ここにラベル ID を入力します（カンマ区切り）
+            use_alt_ui: 投稿のフッターに「ベストアンサー」の設定ボタンを表示する
     forum:
         answered_badge: 解決済み
         this_best_answer: ベストアンサーに選ぶ
