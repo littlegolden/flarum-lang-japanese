@@ -19,14 +19,14 @@ the-turk-diff:
             inline:             単一列の比較（HTML）
             sideBySide:         二重列比較（HTML）
             neighborLines:      コンテキスト行の数
-            neighborLinesHelp:  表示する修正された段落のコンテキスト行の数を設定します。
+            neighborLinesHelp:  変更された段落（差分ブロック）のコンテキスト行の数。 例：2 に設定すると、変更された段落の上下 2 行が比較ビューに追加されることを示します。
             onlyUnsigned:       <strong>符号なし整数</strong>を入力してください！
             detailLevel:        詳細レベル（推奨文字レベル）
             noneLevel:          なし
             lineLevel:          行レベル
             wordLevel:          単語レベル
             charLevel:          キャラクターレベル
-            seperateBlock:      Show a separator between different diff hunks in HTML renderers
-            notice:             <strong>詳細レベル</strong>および<strong>隣接する行の数</strong>の設定を変更しても、以前のバージョンの履歴計算には影響しません。
+            seperateBlock:      離れている2つの変更された段落（差分ブロック）の間に灰色の区切り記号を追加します（例：http://t.cn/A6hcIybR）。
+            notice:             <strong>詳細レベル</strong> および <strong>コンテキスト行の数</strong> の設定を変更しても、以前のバージョンの履歴計算には影響しません。
         permissions:
             viewEditHistory:    編集履歴を表示
