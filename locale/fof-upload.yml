@@ -66,8 +66,8 @@ fof-upload:
         position: 透かしの位置
         file: 透かし画像をアップロードする
     permissions:
-      upload_label: ファイルアップロード設定
-      download_label: ダウンロードファイル
+      upload_label: ダウンロードファイルを許可する
+      download_label: アップロードファイルを許可します
     templates:
       file: デフォルトのファイルダウンロードテンプレート
       file_description: |
