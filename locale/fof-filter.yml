@@ -1,0 +1,36 @@
+# https://github.com/FriendsOfFlarum/filter/blob/master/resources/locale/en.yml
+# ed632db yesterday
+# 2020-2-16 15:31:51 +0800
+
+fof-filter:
+    forum:
+        flagger_name: 自動レビュー
+        flaged_text: 敏感語を含む
+    admin:
+        title: フィルタ
+        help: フィルタする敏感語を入力します。コンマとスペースを使用して区切ります。
+        help2: 冷却時間（分）内の重複した投稿は結合されます。
+        email_help: 問題の投稿後の通知メールの本文に自動的にフラグが立てられ、HTML またはプレーンテキストがサポートされます。
+        filter_label: フィルタする敏感語
+        countLabel: フィルター感度
+        cooldownLabel: 冷却時間
+        input:
+            placeholder: ここに敏感語を入力します。
+            filter_title: フィルタする敏感語
+            email_label: メールボックスの設定
+            switch: 
+              email: スレッドがフィルタされた場合、ユーザーに通知メールを送信します。
+              merge: 重複したスレッドを自動的にマージします。
+            email_subject: 件名
+            email_body: 本文
+        nav:
+            text: フィルタ
+            desc: スレッドを敏感語でフィルタします。
+        email:
+            default_subject: 先ほど投稿したスレッドは削除されました。
+            default_text: |
+                あなたのスレッドには敏感語、禁止語が含まれています。自動的に削除されました。
+                
+                これに異議があれば、管理人に連絡して、人工審査を申請してください。もし不正な内容がなかったら、私達はあなたの招待状を回復します。
+                
+                ご理解ありがとうございます。
