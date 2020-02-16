@@ -13,7 +13,7 @@ fof-filter:
         email_help: 問題の投稿後の通知メールの本文に自動的にフラグが立てられ、HTML またはプレーンテキストがサポートされます。
         filter_label: ユーザー定義の敏感語辞書
         countLabel: フィルター感度
-        cooldownLabel: 冷却時間
+        cooldownLabel: 冷却時間（分）
         input:
             placeholder: ここに敏感語を入力します。
             filter_title: フィルタする敏感語
