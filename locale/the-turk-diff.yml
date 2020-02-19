@@ -26,7 +26,7 @@ the-turk-diff:
             lineLevel:          行レベル
             wordLevel:          単語レベル
             charLevel:          キャラクターレベル
-            seperateBlock:      離れている2つの変更された段落（差分ブロック）の間に灰色の区切り記号を追加します（例：http://t.cn/A6hcIybR）。
+            separateBlock:      離れている2つの変更された段落（差分ブロック）の間に灰色の区切り記号を追加します（例：http://t.cn/A6hcIybR）。
             notice:             <strong>詳細レベル</strong> および <strong>コンテキスト行の数</strong> の設定を変更しても、以前のバージョンの履歴計算には影響しません。
         permissions:
             viewEditHistory:    編集履歴を表示

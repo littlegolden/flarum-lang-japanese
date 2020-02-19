@@ -1,6 +1,6 @@
 # https://github.com/flarum/lang-english/blob/master/locale/core.yml
 # 80328f1
-# Sun, 26 Jan 2020 18:37:06 +0800
+# 2020-2-19 12:31:54 +0800
 
 core:
 
@@ -53,7 +53,7 @@ core:
       show_language_selector_label: 言語選択を表示する
       submit_button: => core.ref.save_changes
       welcome_banner_heading: ウェルカムバナー
-      welcome_banner_text: フォーラムにやってきたユーザーにウェルカムを表示しましょう。全てのスレッドのページにこの文が出力されます。
+      welcome_banner_text: フォーラムにやってきたユーザーにウェルカムを表示しましょう。「全てのスレッド」のページにこの文が出力されます。
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -98,16 +98,16 @@ core:
       driver_label: ドライブ
       from_label: 送信元名
       heading: => core.ref.email
-      mail_encryption_label: 暗号化方式(SSL/TLS)
+      mail_encryption_label: 暗号化方式（SSL/TLS）
       mail_host_label: ホスト
       mail_mailgun_domain_label: ドメイン名
-      mail_mailgun_region_label: 領域
+      mail_mailgun_region_label: 地域
       mail_mailgun_secret_label: Secret key
       mail_mandrill_secret_label: Secret key
       mail_password_label: => core.ref.password
       mail_port_label: ポート番号
       mail_ses_key_label: Key
-      mail_ses_region_label: 面積
+      mail_ses_region_label: 地域
       mail_ses_secret_label: Secret
       mail_username_label: => core.ref.username
       mailgun_heading: Mailgun 設定
@@ -148,28 +148,28 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_post_editing_label: post内容を編集
-      allow_renaming_label: タイトルを変更します
-      create_heading: 討論
-      delete_discussions_forever_label: ディスカッションを完全に削除します
-      delete_discussions_label: ディスカッションを削除
-      delete_posts_forever_label: 返信を完全に削除
-      delete_posts_label: 返信を削除
-      edit_posts_label: 返信を編集
+      allow_post_editing_label: 投稿内容の変更を許可
+      allow_renaming_label: スレッドタイトルの変更を許可
+      create_heading: 作成
+      delete_discussions_forever_label: スレッドを完全に削除
+      delete_discussions_label: スレッドを削除
+      delete_posts_forever_label: 投稿を完全に削除
+      delete_posts_label: 投稿を削除
+      edit_posts_label: 投稿を編集
       edit_users_label: ユーザーを編集
-      global_heading: グローバル
+      global_heading: 全体
       moderate_heading: 管理
-      new_group_button: ユーザーグループを追加
-      participate_heading: 操作
-      read_heading: 訪問
+      new_group_button: 新しいグループ
+      participate_heading: 参加
+      read_heading: 閲覧
       rename_discussions_label: ディスカッションのタイトルを変更
       reply_to_discussions_label: 返信
       sign_up_label: サインアップ
-      start_discussions_label: ディスカッションを投稿する
-      view_discussions_label: ディスカッションを見る
-      view_last_seen_at_label: ユーザーの最後のアクティビティ時間を表示する
-      view_post_ips_label: IP アドレスを表示
-      view_user_list_label: ユーザーを表示
+      start_discussions_label: 书き込み
+      view_discussions_label: スレッドを閲覧
+      view_last_seen_at_label: ユーザーの最後に見た時間の閲覧
+      view_post_ips_label: 投稿の IP アドレスの表示
+      view_user_list_label: ユーザーリストを閲覧
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -220,7 +220,7 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: 内容を書く…...
-      discard_confirmation: "ポストはまだリリースされていませんが、廃棄されますか？"
+      discard_confirmation: "スレッドはまだ公開されていません。破棄しますか？"
       submit_button: 発表する
       title: => core.ref.start_a_discussion
       title_placeholder: 題名
@@ -242,9 +242,9 @@ core:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: 返信できません
-      cannot_reply_text: このポストに返信する権限がありません。
+      cannot_reply_text: このスレッドに返信する権限がありません。
       delete_button: => core.ref.delete
-      delete_confirmation: "こdelete_confirmation"
+      delete_confirmation: "本当にこのスレッドを削除してもよろしいですか？"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: ログインして返信します
       rename_button: => core.ref.rename
@@ -297,19 +297,19 @@ core:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: ディスカッションを投稿できませんでした
-      mark_all_as_read_confirmation: "すべてのディスカッションを既読としてマークしてもよろしいですか？"
+      cannot_start_discussion_button: スレッドを開始できません
+      mark_all_as_read_confirmation: "すべてを既読としてマークしてもよろしいですか？"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: リフレッシュ
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: 最新の返信
-      newest_button: 最新ポスト
-      oldest_button: 最初のポスト
-      relevance_button: 関連する推奨事項
-      top_button: ほとんどの返信
+      latest_button: 更新順
+      newest_button: 新着順
+      oldest_button: 古い順
+      relevance_button: 関連度順
+      top_button: 返信数量順
 
     # These translations are used in the Log In modal dialog.
     log_in:
@@ -361,7 +361,7 @@ core:
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: ディスカッションのタイトルを変更
+      title: タイトル変更
       submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
@@ -378,7 +378,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: スレッド名が変更されたとき
+      notify_discussion_renamed_label: 誰かが私のスレッド名を変更しました
       privacy_disclose_online_label: 自分のオンライン状態を他ユーザーに表示することを許可する
       privacy_heading: プライバシー
       title: => core.ref.settings
@@ -549,7 +549,7 @@ core:
   
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: すべてのポスト
+    all_discussions: すべてのスレッド
     change_email: メールアドレスの変更
     change_password: パスワードの変更
     color: カラー
@@ -561,7 +561,7 @@ core:
     custom_header_title: カスタムヘッダーを編集
     delete: 削除
     delete_forever: 完全に削除
-    discussions: 議論
+    discussions: スレッド
     edit: 編集
     email: 電子メール
     icon_label: アイコン
