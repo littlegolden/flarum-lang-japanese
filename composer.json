@@ -1,5 +1,5 @@
 {
-  "name": "littlegolden/lang-japanese",
+  "name": "littlegolden/flarum-lang-japanese",
   "description": "Flarum 日本語言語パック 2020",
   "keywords": [
     "flarum",
@@ -24,9 +24,6 @@
   "require": {
     "flarum/core": "^0.1.0-beta.8"
   },
-  "replace": {
-    "littlegolden/flarum-lang-japanese": "*"
-},
   "extra": {
     "flarum-extension": {
       "title": "日本語言語パック",
