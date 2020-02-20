@@ -1,32 +1,37 @@
 # https://github.com/the-turk/flarum-diff/blob/master/locale/en.yml
-# b68c0b0 2 days ago
-# 2020-2-13 16:27:12 +0800
+# f279a82 8 hours ago
+# 2020-2-20 12:03:18 +0800
 
 the-turk-diff:
     forum:
-        oldVersion:             古い
-        newVersion:             新しい
-        differences:            変更
-        revisionInfo:           "{revisionCount} 回編集、古いものから新しいものへ"
-        emptyText:              改訂なし
+        differences:                違い
+        revisionInfo:               "{revisionCount} 回編集、新着順|{revisionCount} 回編集、新着順"
+        emptyText:                  ノー改訂履歴
+        confirmDelete:              この編集レコードを削除してもよろしいですか？
+        deleteSuccessMessage:       編集レコードが削除されました
+        deleteErrorMessage:         編集レコードの削除に失敗しました
+        deletedText:                （削除済み）
+        deletedTooltip:             "{username} が {ago} でこの編集を削除しました"
     admin:
         settings:
-            title:              改訂履歴 - 設定
-            displayMode:        表示モード（HTML）
-            customHTML:         行番号なしのコードの強調表示
-            tabularHTML:        行番号コードで強調表示されたビュー
-            renderMode:         コントラストモード
-            inline:             単一列の比較（HTML）
-            sideBySide:         二重列比較（HTML）
-            neighborLines:      コンテキスト行の数
-            neighborLinesHelp:  変更された段落（差分ブロック）のコンテキスト行の数。 例：2 に設定すると、変更された段落の上下 2 行が比較ビューに追加されることを示します。
-            onlyUnsigned:       <strong>符号なし整数</strong>を入力してください！
-            detailLevel:        詳細レベル（推奨文字レベル）
-            noneLevel:          なし
-            lineLevel:          行レベル
-            wordLevel:          単語レベル
-            charLevel:          キャラクターレベル
-            separateBlock:      離れている2つの変更された段落（差分ブロック）の間に灰色の区切り記号を追加します（例：http://t.cn/A6hcIybR）。
-            notice:             <strong>詳細レベル</strong> および <strong>コンテキスト行の数</strong> の設定を変更しても、以前のバージョンの履歴計算には影響しません。
+            title:                  改訂履歴 - 設定
+            displayMode:            表示モード（HTML）
+            customHTML:             行番号なしの強調表示ビュー
+            tabularHTML:            行番号付きの強調表示ビュー
+            renderMode:             コントラストモード
+            inline:                 単一列比較（HTML）
+            sideBySide:             二重列比較（HTML）
+            neighborLines:          コンテキスト行の数
+            neighborLinesHelp:      変更された段落（差分ブロック）のコンテキスト行の数。 例：2 に設定すると、変更された段落の上下 2 行が比較ビューに追加されることを示します。
+            onlyUnsigned:           <strong>符号なし整数</strong>を入力してください！
+            detailLevel:            詳細レベル（推奨文字レベル）
+            noneLevel:              なし
+            lineLevel:              行レベル
+            wordLevel:              単語レベル
+            charLevel:              キャラクターレベル
+            separateBlock:          多くの行で区切られた2つの変更された段落（差分ブロック）の間に灰色の区切り記号を追加します（例：http://t.cn/A6hcIybR）。
+            notice:                 <strong>詳細レベル</strong> および <strong>コンテキスト行の数</strong> の設定を変更しても、以前のバージョンの履歴計算には影響しません。
         permissions:
-            viewEditHistory:    編集履歴を表示
+            viewEditHistory:        編集履歴を表示
+            deleteEditHistory:      他の人が作成した編集レコードを削除する
+            selfDeleteEditHistory:  ユーザー自分の編集履歴を削除する
