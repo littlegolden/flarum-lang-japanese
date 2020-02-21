@@ -9,5 +9,5 @@ antoinefr-online:
   admin:
     settings:
       title: 設定する
-      displaymax: オンラインユーザーの数を表示します
+      displaymax: 表示する数量
       titleoflist: カスタムリストのタイトル
