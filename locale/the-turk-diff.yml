@@ -1,6 +1,6 @@
 # https://github.com/the-turk/flarum-diff/blob/master/locale/en.yml
-# f279a82 8 hours ago
-# 2020-2-20 12:03:18 +0800
+# de76326 yesterday
+# 2020-2-23 13:59:53 +0800
 
 the-turk-diff:
     forum:
@@ -31,6 +31,8 @@ the-turk-diff:
             charLevel:              キャラクターレベル
             separateBlock:          多くの行で区切られた2つの変更された段落（差分ブロック）の間に灰色の区切り記号を追加します（例：http://t.cn/A6hcIybR）。
             notice:                 <strong>詳細レベル</strong> および <strong>コンテキスト行の数</strong> の設定を変更しても、以前のバージョンの履歴計算には影響しません。
+            enableSyncScroll:       二重列のコントラストビューの水平スクロールバーの同期スクロール
+            allowSwitch:            ユーザーが自分でコントラストビューを切り替えられるようにする
         permissions:
             viewEditHistory:        編集履歴を表示
             deleteEditHistory:      他の人が作成した編集レコードを削除する
