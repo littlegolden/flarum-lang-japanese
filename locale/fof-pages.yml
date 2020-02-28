@@ -1,6 +1,6 @@
 # https://github.com/FriendsOfFlarum/pages/blob/master/resources/locale/en.yml
-# d8d3662 yesterday
-# 2020-2-27 17:40:31 +0800
+# d8d3662 2 days ago
+# 2020-2-28 16:20:44 +0800
 
 fof-pages:
 
@@ -44,6 +44,13 @@ fof-pages:
     pages_list:
       empty_text: ページが存在しないようです
       title: => fof-pages.ref.title
+
+    # These Strings are used in the permission page.
+    permissions:
+      restricted: カスタムの静的ページにアクセスする
+    badges:
+      hidden: 下書き
+      restricted: アクセス制限がある
 
   # These strings are used in the navigation bar.
   ref:
