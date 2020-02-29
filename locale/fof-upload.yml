@@ -47,7 +47,7 @@ fof-upload:
         password: パスワード
         region: 地域
       qiniu:
-        title: 七牛 ストア設定
+        title: 七牛 ストア設定（需要 composer require overtrue/flysystem-qiniu）
         key: Key
         secret: Secret
         bucket: Bucket

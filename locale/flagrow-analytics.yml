@@ -36,5 +36,5 @@ flagrow-analytics:
 
     page:
       nav:
-        title: 統計
-        description: 統計をご覧ください
+        title: Piwik 統計
+        description: Piwik 統計をご覧ください
