@@ -1,6 +1,6 @@
 # https://github.com/FriendsOfFlarum/moderator-notes/blob/master/resources/locale/en.yml
 # dc9664b 3 days ago
-# 2020-2-29 11:15:04 +0800
+# 2020-2-29 22:22:30 +0800
 
 fof-moderator-notes:
   admin:
@@ -10,7 +10,7 @@ fof-moderator-notes:
   forum:
     moderatorNotes:
       add_button: 伝言を投稿
-      confirmation_message: 伝言成功！ 表示するにはページを更新する必要があります。
+      confirmation_message: 伝言成功！ 表示するには、ページを更新する必要がある場合があります。
       create-heading: 伝言を投稿する
       dismiss_button: わかった
       input_heading: あなたは <strong>{username}</strong> に伝言を残しています
