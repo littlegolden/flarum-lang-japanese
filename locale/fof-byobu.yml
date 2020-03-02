@@ -1,11 +1,11 @@
 # https://github.com/FriendsOfFlarum/byobu/blob/master/resources/locale/en.yml
-# 2c66711 25 minutes ago
-# 2020-2-19 18:51:20 +0800
+# 009c3f1 16 hours ago
+# 2020-3-2 18:52:11 +0800
 
 fof-byobu:
     forum:
         badges:
-            is_private:   # 私的な議論
+            is_private:   # 私的な雑谈
                 tooltip: 私的な雑谈
         buttons:
             add_recipients: 公開
@@ -45,6 +45,7 @@ fof-byobu:
 
             byobu_link: 私的な雑谈
             dropdown_label: 私的な雑谈
+
         notifications:
             pd_label: 誰かが私を私的な雑谈に招待しました
             pd_reply_label: 私が参加した私的な雑谈に誰かが投稿しました
@@ -61,8 +62,8 @@ fof-byobu:
             view_private_discussions-when-flagged: 他のユーザーの私的な雑谈を表示する（報告されている場合）
 
         settings:
-            byobu_users_page_label: ユーザープロフィールに「私的な雑谈」を追加
-            nothing_here: ここには何もありません
+            use_tag_slug: 私的な雑谈の作成時に自動的に分類されるカテゴリタグを設定します。
+            use_tag_slug_help: この設定は、設定が有効になった後に作成された私的な雑谈にのみ有効で、ユーザーが独自のラベルを選択できるように空白のままにします。
 
     notifications:
         private_discussion_created:
