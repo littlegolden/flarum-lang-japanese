@@ -1,6 +1,6 @@
 # https://github.com/flarum/flarum-ext-english/blob/master/locale/flarum-subscriptions.yml
 # c28c3a6
-# Sat, 25 Jan 2020 22:01:18 +0800
+# 2020-3-6 16:15:47 +0800
 
 flarum-subscriptions:
 
@@ -24,7 +24,7 @@ flarum-subscriptions:
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      following_link: => flarum-subscriptions.ref.following
+      following_link: 私のフォロー
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:

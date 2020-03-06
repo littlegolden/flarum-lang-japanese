@@ -1,6 +1,6 @@
 # https://github.com/flarum/flarum-ext-english/blob/master/locale/flarum-flags.yml
 # 6473f49 26 days ago
-# 2020-3-4 20:08:20 +0800
+# 2020-3-6 16:14:18 +0800
 
 flarum-flags:
 
@@ -13,21 +13,21 @@ flarum-flags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      flag_posts_label: ディスカッションを報告する
-      view_flags_label: 報告されたトピックを表示
+      flag_posts_label: 報告投稿
+      view_flags_label: 報告のリストを表示
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
       flag_own_posts_label: ユーザーが自分の投稿を報告できるようにする
       guidelines_url_label: コミュニティのガイドラインの URL
-      title: レポート設定
+      title: 報告設定
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the Flag Post modal dialog.
     flag_post:
-      confirmation_message: レポートをありがとう、管理者はすぐにそれを処理します。
+      confirmation_message: 報告をありがとう、管理者はすぐにそれを処理します。
       dismiss_button: => core.ref.okay
       reason_details_placeholder: 詳細な説明（オプション）
       reason_inappropriate_label: わいせつな
@@ -51,8 +51,8 @@ flarum-flags:
     # These translations are used by the frame displayed around flagged posts.
     post:
       dismiss_flag_button: レポートフラグを元に戻す
-      flagged_by_text: "{username} による報告"
-      flagged_by_with_reason_text: "{reason} の理由で {username} が報告"
+      flagged_by_text: "{username} による報告："
+      flagged_by_with_reason_text: "{username} による報告：{reason}"
 
     # These translations are used by the post control buttons.
     post_controls:

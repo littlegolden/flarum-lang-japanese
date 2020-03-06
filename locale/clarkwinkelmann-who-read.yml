@@ -1,6 +1,6 @@
 # https://github.com/clarkwinkelmann/flarum-ext-who-read/blob/master/resources/locale/en.yml
-# ce02745 10小时前
-# 2020-2-29 17:55:47 +0800
+# 43cea10 12小时前
+# 2020-3-6 16:09:27 +0800
 
 clarkwinkelmann-who-read:
     forum:
@@ -12,11 +12,18 @@ clarkwinkelmann-who-read:
         stats:
             to_end: "{count} 人がすべて読む"
             to_at_least_here: "{count} 人がここで読む"
-
+        controls:
+            set-unread: 未読にする
+            remove-unread: 既読にする
+        badges:
+            unread: 未読にする
     admin:
         permissions:
+            heading: Who Read
             see-read: 「読書の進捗」の閲覧を許可する
             see-subscription: サブスクリプションステータスの閲覧を許可する
+            see-unread: 他のユーザーの未読ステータスを見る
+            mark-unread: ユーザーがスレッドを未読としてマークできるようにする
         settings:
             title: 読書の進捗 - 設定
             show-in-discussion-list: ホームページのスレッドリストに読者を表示する
