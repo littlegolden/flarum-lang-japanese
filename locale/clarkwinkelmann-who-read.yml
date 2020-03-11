@@ -1,22 +1,34 @@
 # https://github.com/clarkwinkelmann/flarum-ext-who-read/blob/master/resources/locale/en.yml
-# 43cea10 12小时前
-# 2020-3-6 16:09:27 +0800
+# afd3f23 yesterday
+# 2020-3-11 11:02:22 +0800
 
 clarkwinkelmann-who-read:
     forum:
         tooltip:
-            last_read_at: "{ago} に読んだ {username}"
-            last_read_at_behind: "{ago} に読んだ {username}"
-            last_read_at_up_to_date: "{username} は {ago} に最新の返信をチェックしました"
-        show-more: 展開（{count} 人）
-        stats:
-            to_end: "{count} 人がすべて読む"
-            to_at_least_here: "{count} 人がここで読む"
+            last-read-at: "{ago} に読んだ {username}"
+            last-read-at-behind: "{ago} に読んだ {username}"
+            last-read-at-up-to-date: "{username} は {ago} に最新の返信をチェックしました"
+        more:
+            show: 展開（{count} 人）
+            info: さらに {count} 人
+        footer:
+            to-here-some-stopped: "{total} 人のユーザーがこの投稿を読みました， {stopped} 人はこれ以上読みませんでした。"
+            to-here-none-stopped: "{total} 人がこの投稿を読み、全員が読みました。"
+            to-here-nobody: "誰もこの投稿を読んでいない"
+            to-end: "{count} 人がすべて読む"
+            to-end-nobody: "誰も最後まで読んでいない"
         controls:
             set-unread: 未読にする
             remove-unread: 既読にする
         badges:
             unread: 未読にする
+        modal:
+            title: 読者
+            up-to-this-post: この投稿のみを読むユーザー
+            past-this-post: ここを読み終えたユーザー
+            to-the-end: すべて読んだユーザー
+            behind: 未読ユーザー
+
     admin:
         permissions:
             heading: Who Read
@@ -29,6 +41,8 @@ clarkwinkelmann-who-read:
             show-in-discussion-list: ホームページのスレッドリストに読者を表示する
             show-in-hero: スレッドページのバナーにリーダーを表示する
             show-between-posts: ポストストリームで読書の進捗を表示
+            show-count-of-readers-who-stopped: 投稿ストリームでは、未読ユーザーの数のみが表示されます。
             hide-when-behind: 読書の進捗が非常に遅いユーザーを表示しない（単位：ポスト）値が1の場合、ユーザーがスレッドに未読の投稿を1つ持っている限り、彼/彼女は読者リストに表示されません。この値をクリアすると、デフォルトに戻ります。
             max-visible: スレッドバナーに表示するリーダーの最大数を設定します（この数を超えた後、完全なリストを表示するには展開ボタンをクリックする必要があります）
+            unread-icon: アバターの未読バッジアイコン
             only-groups: グループユーザーの読書の進行状況のみを表示する
