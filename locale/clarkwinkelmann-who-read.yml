@@ -1,6 +1,6 @@
 # https://github.com/clarkwinkelmann/flarum-ext-who-read/blob/master/resources/locale/en.yml
-# afd3f23 yesterday
-# 2020-3-11 11:02:22 +0800
+# 5404c17 20 hours ago
+# 2020-3-13 20:04:48 +0800
 
 clarkwinkelmann-who-read:
     forum:
@@ -12,15 +12,15 @@ clarkwinkelmann-who-read:
             show: 展開（{count} 人）
             info: さらに {count} 人
         footer:
-            to-here-some-stopped: "{total} 人のユーザーがこの投稿を読みました， {stopped} 人はこれ以上読みませんでした。"
-            to-here-none-stopped: "{total} 人がこの投稿を読み、全員が読みました。"
-            to-here-nobody: "誰もこの投稿を読んでいない"
-            to-end: "{count} 人がすべて読む"
-            to-end-nobody: "誰も最後まで読んでいない"
+            read-this-post: "{0} 誰もこの投稿を読んでいない|{1} 1 人がこの投稿を見ました|]1,Inf] {count} 人がこの投稿を見ました"
+            read-no-further: "{0} 誰もがすでに読んだ|{1} 1 人がこの投稿を読みました|]1,Inf] {count} 人がこの投稿を読みました"
+            read-to-end: "{0} 誰も最後まで読んでいない|{1} 1 人がすべて読む|]1,Inf] {count} 人がすべて読む"
         controls:
             set-unread: 未読にする
             remove-unread: 既読にする
         badges:
+            following: => flarum-subscriptions.forum.badge.following_tooltip
+            ignoring: => flarum-subscriptions.forum.badge.ignoring_tooltip
             unread: 未読にする
         modal:
             title: 読者
