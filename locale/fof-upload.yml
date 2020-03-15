@@ -26,7 +26,7 @@ fof-upload:
         key: Key
         region: 地域
         secret: Secret
-        title: AWS S3 ストア設定
+        title: AWS S3 ストア設定（http://t.cn/A6zX0V3N）
       disable-download-logging:
           title: ダウンロード履歴統計を無効にする
           toggle: 無効にする
@@ -79,7 +79,7 @@ fof-upload:
       image_description: |
         画像のサムネイルを表示し、PHP を介してプロキシをダウンロードします。 統計の収集とホットリンク保護を許可します。
     upload_methods:
-      aws-s3: Amazon S3
+      aws-s3: AWS S3
       imgur: Imgur
       local: ローカル
       ovh-svfs: OVH SVFS
