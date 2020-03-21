@@ -1,6 +1,6 @@
 # https://github.com/flarum/lang-english/blob/master/locale/core.yml
 # fc80447 26 days ago
-# 2020-3-4 20:16:54 +0800
+# 2020-3-21 20:14:30 +0800
 
 core:
 
@@ -123,6 +123,13 @@ core:
       add_button: 拡張機能を追加
       settings_button: => core.ref.settings
       uninstall_button: アンインストール
+    
+    advanced:
+      help_text: これらの設定は上級ユーザー向けであることに注意してください
+      heading_security: セキュリティ設定
+      post_flood_interval: 複数の投稿間の待機時間
+      post_flood_interval_text: ユーザーが別の投稿を作成するまで待機する時間を設定します（秒単位）
+      enter_positive_number: 正数を入力してください
 
     # These translations are used in the session dropdown menu.
     header:
@@ -144,6 +151,8 @@ core:
       email_text: "フォーラムのメールボックス設定を構成する"
       extensions_button: プラグイン
       extensions_text: あなたのフォーラムのために追加の機能を追加します
+      advanced_button: シニア
+      advanced_text: 上級ユーザー向けの設定を構成します。
       permissions_button: 権限
       permissions_text: ユユーザアクセスと操作権限の設定
 
