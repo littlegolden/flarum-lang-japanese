@@ -15,7 +15,7 @@ minr-auth-qq:
     qq_settings:
       client_id_label: App ID
       client_secret_label: App Secret
-      title: QQ 認証 - 設定
+      title: QQ ログイン - 設定
 
   # Translations in this namespace are used by the forum user interface.
   forum:

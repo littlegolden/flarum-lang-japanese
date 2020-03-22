@@ -1,6 +1,6 @@
 # https://github.com/askvortsov1/flarum-categories/blob/master/resources/locale/en.yml
-# a618af7 5 hours ago
-# 2020-3-21 19:50:47 +0800
+# 96980fe 5 hours ago
+# 2020-3-22 11:04:39 +0800
 
 askvortsov-categories:
   admin:
@@ -8,6 +8,7 @@ askvortsov-categories:
       categories_label: 掲示板一覧
     labels:
       keep_tags_nav: サイドバーの「ラベル」ボタンを非表示にしないでください
+      full_page_desktop: サイドバーは（ネイティブタブのように）水平に表示されますか？ この設定は、サードパーティのウィジェット（FoFフォーラム統計など）も非表示にします
       parent_remove_icon: 板のアイコンを非表示
       parent_remove_description: 板の説明を非表示
       parent_remove_stats: 板の統計を非表示
