@@ -344,7 +344,7 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: 編集済み编辑
+      edited_text: 編集済み
       edited_tooltip: "{username} が {ago} に編集しました"
       number_tooltip: "#{number} 番目の投稿"
 
