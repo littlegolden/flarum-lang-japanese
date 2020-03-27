@@ -232,7 +232,7 @@ core:
     composer_discussion:
       body_placeholder: 内容を書く…...
       discard_confirmation: "スレッドはまだ公開されていません。破棄しますか？"
-      submit_button: 発表する
+      submit_button: 投稿する
       title: => core.ref.start_a_discussion
       title_placeholder: 題名
 
