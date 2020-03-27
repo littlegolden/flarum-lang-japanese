@@ -238,15 +238,15 @@ core:
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "未保存の変更、破棄しますか？"
-      post_link: "发布 #{number} 于 {discussion}"
+      discard_confirmation: "未保存の変更があります。破棄しますか？"
+      post_link: "#{number} の {discussion} を投稿"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
       discard_confirmation: "返信はまだ公開されていません。破棄しますか？"
-      posted_message: ポストリリース成功
+      posted_message: 返信を送信しました
       submit_button: 返信
       view_button: 見る
 
