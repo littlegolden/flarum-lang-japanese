@@ -27,7 +27,7 @@ therealsujitk:
       giphyAPIkey: 'Giphy API Key'
     hljs:
         title: 'highlight.js 設定'
-        themename: 'テーマ名'
+        themename: 'テーマスタイル（プレビュー：http://t.cn/A6ZtzMiG）'
     about:
       stringA: 'プラグイン作成者：'
       stringB: '寄付する：'
