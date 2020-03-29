@@ -4,11 +4,11 @@
 
 the-turk-diff:
     forum:
-        revisionInfo:                "{revisionCount} 回編集、新着順|{revisionCount} 回編集、新着順"        revisions:                   "共 {revisionCount} 次修订|共 {revisionCount} 次修订"
+        revisionInfo:                "{revisionCount} 回編集、新着順|{revisionCount} 回編集、新着順"
         revisions:                   "合計 {revisionCount} 改訂|共 {revisionCount} 改訂"  
         emptyText:                   ノー改訂履歴
         confirmDelete:               この編集レコードを削除してもよろしいですか？
-        confirmRollback:             このバージョンにロールバックしてもよろしいですか？ このバージョン以降のすべての編集レコードは削除されます。
+        confirmRollback:             このバージョンにロールバックしてもよろしいですか？ 
         deleteSuccessMessage:        編集レコードが削除されました
         deleteErrorMessage:          編集レコードの削除に失敗しました
         rollbackSuccessMessage:      ロールバック成功。
@@ -21,7 +21,7 @@ the-turk-diff:
         rollbackToOriginalButton:    初期バージョンへのロールバック
         revertChangesButton:         変更を元に戻す
         noDiff:                      2 つの違いはありません
-        mostRecent:                  新着順
+        mostRecent:                  最新
         sideBySide:                  二重列比較（HTML）
         inline:                      単一列比較（HTML）
         combined:                    複合図比較（HTML）
@@ -30,7 +30,7 @@ the-turk-diff:
         differences:                 "あなたはバージョンの違いを見ている {old} と {new} "
         previewMode:                 "プレビューモード（{content}）" # other languages may use: You're in preview mode ({content})
         originalContent:             初期バージョン # may be {old}, {new} or {content}
-        currentContent:              現在のコンテンツ # may be {old}, {new} or {content}
+        currentContent:              現在バージョン # may be {old}, {new} or {content}
         revisionWithNumber:          "改訂バージョン {number}" # may be {old}, {new} or {content}
     admin:
         settings:

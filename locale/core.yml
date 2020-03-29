@@ -93,12 +93,12 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      addresses_heading: メールアドレス
-      driver_heading: ドライブを選択
-      driver_label: ドライブ
-      from_label: 送信元名
+      addresses_heading: アドレス
+      driver_heading: ドライブ
+      driver_label: メールドライブ
+      from_label: メールアドレス
       heading: => core.ref.email
-      mail_encryption_label: 暗号化方式（SSL/TLS）
+      mail_encryption_label: 暗号化方式（ssl/tls）
       mail_host_label: ホスト
       mail_mailgun_domain_label: ドメイン名
       mail_mailgun_region_label: 地域
@@ -109,7 +109,7 @@ core:
       mail_ses_key_label: Key
       mail_ses_region_label: 地域
       mail_ses_secret_label: Secret
-      mail_username_label: => core.ref.username
+      mail_username_label: ユーザ名（一般的にメールアドレスと同じ）
       mailgun_heading: Mailgun 設定
       mandrill_heading: Mandrill 設定
       not_sending_message: Flarum は現在メールを送信できません。メールドライバーとその設定を確認してください。
