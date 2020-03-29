@@ -319,8 +319,8 @@ core:
       latest_button: 更新
       newest_button: 最新
       oldest_button: 古い順
-      relevance_button: 関連度順
-      top_button: 返信量順
+      relevance_button: 関連順
+      top_button: 人気順
 
     # These translations are used in the Log In modal dialog.
     log_in:
