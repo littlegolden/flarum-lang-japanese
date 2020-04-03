@@ -2,7 +2,7 @@
 
 Based on original work (c) 2018 [setsunaMC](https://github.com/setsunaMC/flarum-ext-japanese) and (c) 2019 [rikusen0335](https://github.com/rikusen0335/lang-japanese-extended).
 
-Co-translate with [Slicky](https://bbs.csur.fun/u/Slicky0611).
+Co-translate with [Slicky](https://bbs.csur.fun/u/Slicky0611). Thanks to [Rikusen](https://github.com/rikusen0335) for the contribution.
 
 ### 需要条件 / Requirement
   - Flarum v0.1.0-beta.8 or later
