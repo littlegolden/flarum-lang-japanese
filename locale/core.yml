@@ -257,7 +257,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "本当にこのスレッドを削除してもよろしいですか？"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: ログインして返信する
+      log_in_to_reply_button: ログイン後に返信
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
