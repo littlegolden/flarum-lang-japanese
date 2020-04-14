@@ -1,0 +1,16 @@
+# https://github.com/FriendsOfFlarum/discussion-language/blob/master/resources/locale/en.yml
+# ba88158 2 days ago
+# 2020-4-14 19:00:49 +0800
+
+fof-discussion-language:
+  forum:
+    index_language:
+      any: 任意の言語
+
+  admin:
+    settings:
+      title: FoF スレッド言語
+
+  api:
+    discussion:
+      validation_error: スレッドの言語を指定する必要があります。
