@@ -1,6 +1,6 @@
 # https://github.com/MichaelBelgium/flarum-discussion-views/blob/master/locale/en.yml
-# 12a5f71
-# Sun, 26 Jan 2020 13:49:40 +0800
+# 702b98f 28 days ago
+# 2020-5-4 19:11:01 +0800
 
 core:
   forum:
@@ -16,6 +16,8 @@ flarum_discussion_views:
       label: 見られた回数をセットする
     discussion_controls:
       resetviews_button: 見られた回数をセットする
+      can_reset_views: 閲覧回数をリセット
+      can_view_number: 閲覧回数を确认する
   admin:
       permissions:
           reset_views_label: 見られた回数をセットする
