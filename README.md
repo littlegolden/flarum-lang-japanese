@@ -179,9 +179,9 @@ php flarum cache:clear
   - the-turk-edit-notifications（[Edit Notifications](https://discuss.flarum.org/d/22896)）
   - the-turk-password-strength（[Password Strength Indicator](https://discuss.flarum.org/d/22624)）
   - the-turk-quiets-edits（[Quiets Edits](https://discuss.flarum.org/d/5151)）
-  - therealsujitk-gifs（[Show Password](https://discuss.flarum.org/d/22727)）
+  - therealsujitk-gifs（[GIFs](https://discuss.flarum.org/d/23101)）
   - therealsujitk-hljs（[Highlight.js](https://discuss.flarum.org/d/23229)）
-  - therealsujitk-show-password（[GIFs](https://discuss.flarum.org/d/23101)）
+  - therealsujitk-show-password（[Show Password](https://discuss.flarum.org/d/22727)）
   - tituspijean-auth-ldap（[LDAP Login](https://discuss.flarum.org/d/9515)）
   - tpokorra-post-notification（[Post Notifications per E-Mail](https://discuss.flarum.org/d/20750)）
   - v17development-seo（[Flarum SEO](https://discuss.flarum.org/d/18316)）
