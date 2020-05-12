@@ -22,5 +22,5 @@ fof-moderator-notes:
       notes: 伝言板
 
   api:
-    auto-note: FoF Impersonate を使って、このユーザーに乗り換えました。
-    auto-note-actor: 'ユーザー名' の代わりに FoF Impersonate を使用します。
+    auto-note: FoF Impersonateを使って、このユーザーに乗り換えました。
+    auto-note-actor: "'ユーザー名'の代わりにFoF Impersonateを使用します。"
