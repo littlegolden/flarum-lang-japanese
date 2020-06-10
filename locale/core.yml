@@ -35,9 +35,9 @@ core:
       edit_header_button: => core.ref.custom_header_title
       enter_hex_message: 16進数のカラーコードを入力します（例：#ff0000）
       favicon_heading: ファビコン
-      favicon_text: ショートカットアイコン用の画像をアップロード。
+      favicon_text: ショートカットアイコン用の画像をアップロード
       logo_heading: ロゴ
-      logo_text: タイトル用の画像をアップロード。
+      logo_text: タイトル用の画像をアップロード
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
@@ -190,10 +190,10 @@ core:
       allow_some_minutes_button: "{count} 分|{count} 分"
       allow_ten_minutes_button: 10 分以内
       allow_until_reply_button: 返信されるまで
-      everyone_button: みなさん
+      everyone_button: 誰でも
       members_button: => core.group.members
-      signup_closed_button: 关闭注册
-      signup_open_button: オープン登録
+      signup_closed_button: 制限あり
+      signup_open_button: 誰でも
 
     # These translations are used in the Settings modal dialog.
     settings:
@@ -248,9 +248,9 @@ core:
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
       discard_confirmation: "返信はまだ公開されていません。破棄しますか？"
-      posted_message: 返信を送信しました
-      submit_button: 返信
-      view_button: 見る
+      posted_message: 返信が投稿されました。
+      submit_button: 返信する
+      view_button: プレビュー
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -259,7 +259,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "本当にこのスレッドを削除してもよろしいですか？"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: ログイン後に返信
+      log_in_to_reply_button: ログインして返信
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
@@ -313,7 +313,7 @@ core:
       cannot_start_discussion_button: スレッドを開始できません
       mark_all_as_read_confirmation: "すべてを既読にしてもよろしいですか？"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      refresh_tooltip: リフレッシュ
+      refresh_tooltip: 更新
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
@@ -330,7 +330,7 @@ core:
       invalid_login_message: 入力された情報が正しくありません。
       password_placeholder: => core.ref.password
       remember_me_label: ログインしたままにする
-      sign_up_text: "まだアカウントがありませんか？<a>新規登録</a>"
+      sign_up_text: "アカウント登録がまだですか？<a>新規登録</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: ユーザー名またはメールアドレス
@@ -526,7 +526,7 @@ core:
 
         {forum} への登録のリクエストが送信されました。
 
-        こちらのURLにアクセスすると、作成したアカウントを有効化することができます:こちらのURLにアクセスすると、作成したアカウントを有効化することができます:
+        こちらのURLにアクセスすると、作成したアカウントを有効化することができます:
         {url}
 
         このメールに身に覚えがない場合は、お手数ですがメールを削除してください。
@@ -568,7 +568,7 @@ core:
     change_password: パスワードの変更
     color: カラー
     confirm_password: パスワードの確認
-    confirmation_email_sent: "{email} にアカウント確認メールを送信しました。 メールが届かない場合は、迷惑メールボックスをご確認ください。"
+    confirmation_email_sent: "{email} にアカウント確認メールを送信しました。メールが届かない場合は、迷惑メールボックスをご確認ください。"
     custom_footer_text: ページの一番下に表示する HTML を追加します。
     custom_footer_title: カスタムフッターを編集
     custom_header_text: "Flarum のヘッダーの上、つまりページの一番上に表示する HTML を追加します。"
@@ -593,7 +593,7 @@ core:
     previous_page: 前のページ
     rename: リネーム
     reply: 返信                                 # Referenced by flarum-mentions.yml
-    reset_your_password: パスワードリセット
+    reset_your_password: パスワードをリセット
     restore: 復元
     save_changes: 変更を保存                   # Referenced by flarum-tags.yml
     settings: 設定
