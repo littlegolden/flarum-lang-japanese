@@ -1,6 +1,6 @@
 # https://github.com/flarum/lang-english/blob/master/locale/core.yml
-# fc80447 26 days ago
-# 2020-3-21 20:14:30 +0800
+# ca40dd2 10 days ago
+# 2020-5-4 18:54:13 +0800
 
 core:
 
@@ -77,6 +77,7 @@ core:
       color_label: => core.ref.color
       delete_button: グループを削除
       delete_confirmation: "本当にこのグループを削除してもよろしいですか？<strong>グループに登録されているユーザーは削除されません。</strong>。"
+      hide_label: フォーラムで隠れる
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
       name_label: 名前
@@ -93,12 +94,12 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      addresses_heading: メールアドレス
-      driver_heading: ドライブを選択
-      driver_label: ドライブ
-      from_label: 送信元名
+      addresses_heading: アドレス
+      driver_heading: ドライブ
+      driver_label: メールドライブ
+      from_label: メールアドレス
       heading: => core.ref.email
-      mail_encryption_label: 暗号化方式（SSL/TLS）
+      mail_encryption_label: 暗号化方式（ssl/tls）
       mail_host_label: ホスト
       mail_mailgun_domain_label: ドメイン名
       mail_mailgun_region_label: 地域
@@ -109,7 +110,7 @@ core:
       mail_ses_key_label: Key
       mail_ses_region_label: 地域
       mail_ses_secret_label: Secret
-      mail_username_label: => core.ref.username
+      mail_username_label: ユーザ名（一般的にメールアドレスと同じ）
       mailgun_heading: Mailgun 設定
       mandrill_heading: Mandrill 設定
       not_sending_message: Flarum は現在メールを送信できません。メールドライバーとその設定を確認してください。
@@ -178,6 +179,7 @@ core:
       sign_up_label: サインアップ
       start_discussions_label: 书き込み
       view_discussions_label: スレッドを閲覧
+      view_hidden_groups_label: 隠されたユーザーグループのバッジを表示
       view_last_seen_at_label: ユーザーの最後に見た時間の閲覧
       view_post_ips_label: 投稿の IP アドレスの表示
       view_user_list_label: ユーザーリストを閲覧
@@ -232,14 +234,14 @@ core:
     composer_discussion:
       body_placeholder: 内容を書く…...
       discard_confirmation: "スレッドはまだ公開されていません。破棄しますか？"
-      submit_button: 発表する
+      submit_button: 投稿する
       title: => core.ref.start_a_discussion
       title_placeholder: 題名
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "未保存の変更、破棄しますか？"
-      post_link: "{discussion} の {number}番目の投稿"
+      discard_confirmation: "未保存の変更があります。破棄しますか？"
+      post_link: "#{number} の {discussion} を投稿"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
@@ -267,8 +269,8 @@ core:
       empty_text: "ここには何もありません。"
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: 既読にする
-      replied_text: "{username} が {ago} に返信"
-      started_text: "{username} が {ago} に開始"
+      replied_text: "{username} が {ago} に返信しました"
+      started_text: "{username} が {ago} に投稿されました"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -296,31 +298,31 @@ core:
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: 管理
+      admin_button: 管理パネル
       back_to_index_tooltip: スレッドリストに戻る
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: プロフィール
+      profile_button: マイデータ
       search_placeholder: 検索
-      settings_button: 設定する
+      settings_button: 設定
       sign_up_link: => core.ref.sign_up
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
       cannot_start_discussion_button: スレッドを開始できません
-      mark_all_as_read_confirmation: "本当にすべてを既読にしてよろしいですか？"
+      mark_all_as_read_confirmation: "すべてを既読にしてもよろしいですか？"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: 更新
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: 更新順
-      newest_button: 新着順
+      latest_button: 更新
+      newest_button: 最新
       oldest_button: 古い順
-      relevance_button: 関連度順
-      top_button: 返信数量順
+      relevance_button: 関連順
+      top_button: 人気順
 
     # These translations are used in the Log In modal dialog.
     log_in:
@@ -344,15 +346,17 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: 已编辑
+      edited_text: 編集済み
       edited_tooltip: "{username} が {ago} に編集しました"
       number_tooltip: "#{number} 番目の投稿"
 
     # These translations are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
+      delete_confirmation: "この投稿を永久に削除してもよろしいですか？ この操作は取り消すことができません。"
       delete_forever_button: => core.ref.delete_forever
       edit_button: => core.ref.edit
+      hide_confirmation: "この投稿を削除してもよろしいですか？"
       restore_button: => core.ref.restore
 
     # These translations are used in the scrubber to the right of the post stream.
@@ -389,7 +393,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: 誰かが私のスレッド名を変更しました
+      notify_discussion_renamed_label: 誰かがあなたのスレッド名を変更した時
       privacy_disclose_online_label: 自分のオンライン状態を他ユーザーに表示することを許可する
       privacy_heading: プライバシー
       title: => core.ref.settings
@@ -450,9 +454,8 @@ core:
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
-      kilo_text: 千
-      ten_kilo_text: 万
-      mega_text: 百万
+      kilo_text: K
+      mega_text: M
 
     # These translations are used to punctuate a series of items.
     series:
@@ -480,8 +483,8 @@ core:
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
-      csrf_token_mismatch: あなたはあまりにも長い間活動しています。
-      csrf_token_mismatch_return_link: 戻ってやり直してください。
+      csrf_token_mismatch: トークンの期限が切れました。
+      csrf_token_mismatch_return_link: 再度戻ってやり直してください。
       invalid_confirmation_token: この確認リンクは既に使用されているか、無効です。
       not_authenticated: このページにアクセスする権限がありません。 ログインしてからもう一度お試しください。
       not_found: リクエストしたページが見つかりませんでした。
@@ -510,7 +513,7 @@ core:
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "ユーザー名には、文字、数字、およびダッシュのみを使用できます(-)。"
+    invalid_username_message: "ユーザー名には、文字、数字、およびダッシュ(-)のみを使用できます。"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:

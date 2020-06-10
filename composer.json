@@ -12,9 +12,18 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Golden & Slicky",
+      "name": "Golden",
       "email": "littlegoldenjin@gmail.com",
-      "homepage": "https://bbs.csur.fun/u/Golden"
+      "homepage": "https://github.com/Littlegolden"
+    },
+    {
+      "name": "Slicky",
+      "email": "lujingyuan253@gmail.com",
+      "homepage": "https://twitter.com/SlickyPrjKinyou"
+    },
+    {
+      "name": "Rikusen",
+      "homepage": "https://github.com/rikusen0335"
     }
   ],
   "support": {
